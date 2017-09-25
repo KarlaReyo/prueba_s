@@ -8,11 +8,12 @@ library(ggplot2)
 library(forcats)
 library(scales)
 library(RColorBrewer)
+library(reshape2)
+library(plotly)
 
 #Notacion cientifica
 options(scipen=999)
 
-setwd("~/R/App-4")
 key <- kpi_gen
 key$kpi <- sample(100, size = nrow(key), replace = TRUE)
 
@@ -37,39 +38,39 @@ ui <- fluidPage(
            tags$div(class="cuadro", h1("Management Console"))
   ),
   
-    # Panel para inputs ----
-    column(2,
-      
-      radioButtons("eleg", "Filtro de elegibilidad:",
-                   c("Elegible" = "TRUE",
-                     "No Elegible" = "FALSE")),
+  # Panel para inputs ----
+  column(2,
+         
+         radioButtons("eleg", "Filtro de elegibilidad:",
+                      c("Elegible" = "TRUE",
+                        "No Elegible" = "FALSE")),
+         
+         
+         selectInput("riesgo", "Filtro de riesgo:",
+                     c('AAA' = 'AAA',
+                       'AA' = 'AA',
+                       'A' = 'AA',
+                       'BBB' = 'BBB',
+                       'BB' = 'BB',
+                       'B' = 'B'))
+  ),
+  
+  column(2,
+         checkboxGroupInput("prod", "Filtro de producto:",
+                            c('TC' = 'TC','CP' = 'CP','CN' = 'CN','CLI' ='CLI',
+                              'DB' = 'DB','EFE' = 'EFE','AAC' = 'AAC'))
+  ),
+  
+  # Panel para outputs ----
+  mainPanel(
     
-      
-      selectInput("riesgo", "Filtro de riesgo:",
-                  c('AAA' = 'AAA',
-                    'AA' = 'AA',
-                    'A' = 'AA',
-                    'BBB' = 'BBB',
-                    'BB' = 'BB',
-                    'B' = 'B'))
-    ),
-      
-    column(2,
-      checkboxGroupInput("prod", "Filtro de producto:",
-                         c('TC' = 'TC','CP' = 'CP','CN' = 'CN','CLI' ='CLI',
-                           'DB' = 'DB','EFE' = 'EFE','AAC' = 'AAC'))
-    ),
+    plotOutput("Kpi"),
+    br(),
+    plotOutput("NPV"),
+    br(),
+    plotOutput("Clientes")
     
-    # Panel para outputs ----
-    mainPanel(
-      
-      plotOutput("Kpi"),
-      br(),
-      plotOutput("NPV"),
-      br(),
-      plotOutput("Clientes")
-      
-    )
+  )
 )
 
 # Definir servidor ----
@@ -82,10 +83,13 @@ server <- function(input, output, session) {
     filtro <- as.data.frame(filtro[filtro$seg_riesgo == input$riesgo,])
     filtro <- filtro %>% filter(prod %in% input$prod)
     
+    #p  <- 
     ggplot(filtro, aes(x=t, y=kpi, color=prod)) +
       geom_line()+
       scale_y_continuous("Kpi", labels = comma) +   
       scale_x_continuous(name="Mes")
+    
+    #ggplotly(p)
     
   })
   
@@ -95,26 +99,32 @@ server <- function(input, output, session) {
     #filtro <- as.data.frame(npv[npv$seg_riesgo == input$riesgo,])
     npv.m = melt(npv, id.var="seg_riesgo")
     
+    #p <- 
     ggplot(npv.m, aes(x = variable, y = value, color = seg_riesgo)) +
       geom_point() +
       labs(x="Producto", y="Npv") +
       scale_y_continuous(labels = comma)
+    
+    #ggplotly(p)
   })
   
   # Tabla de Clientes ----
   output$Clientes <- renderPlot({
     
-    #ans[is.na(ans)] <- 0
-    ans[ans > 0] <- 1
-    #filtro <- as.data.frame(ans[ans$seg_riesgo == input$riesgo,])
+    ans[is.na(ans)] <- 0
+    ans[,2:8][ans[,2:8] > 0] <- 1
+    #filtro <- as.data.frame(ans[ans$seg_riesgo == input$seg,])
     ans.m = melt(ans, id.var="seg_riesgo")
-    ans.s <- ddply(ans.m, .(seg_riesgo, variable), 
-                 summarize, 
-                 value = sum(value))
+    ans.s <- ddply(ans.m, .(variable), 
+                   summarize, 
+                   value = sum(value))
     
-    ggplot(ans.s, aes(x = variable, y = value, color = seg_riesgo)) +
-      geom_point() +
-      labs(x="Producto", y="Ctes")
+    p <- ggplot(ans.s, aes(x = variable, y = value, fill=variable)) +
+      geom_bar(stat="identity") +
+      labs(x="Producto", y="Ctes")+
+      scale_fill_brewer()
+    
+    ggplotly(p)
     
   })
 }
