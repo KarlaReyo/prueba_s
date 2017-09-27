@@ -1,0 +1,20 @@
+Segmento,Tipo,Notificacion,Ctes
+Affluent,Debito,Sin Alerta,77
+Citi Blue,Debito,Sin Alerta,9668
+Citibanamex1,Debito,Sin Alerta,1519
+Priority,Debito,Sin Alerta,490
+Pyme PFAE,Debito,Sin Alerta,183
+Affluent,Credito,Sin Alerta,429
+Citi Blue,Credito,Sin Alerta,20733
+Citibanamex1,Credito,Sin Alerta,6406
+Priority,Credito,Sin Alerta,1134
+Pyme PFAE,Credito,Sin Alerta,776
+Citi Blue,Debito,Alerta,97971
+Citibanamex1,Debito,Alerta,16301
+Priority,Debito,Alerta,5023
+Pyme PFAE,Debito,Alerta,2303
+Affluent,Credito,Alerta,5924
+Citi Blue,Credito,Alerta,190287
+Citibanamex1,Credito,Alerta,80779
+Priority,Credito,Alerta,15032
+Pyme PFAE,Credito,Alerta,9533

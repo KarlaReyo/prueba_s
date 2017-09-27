@@ -1,0 +1,292 @@
+Ctes,Tipo,Mes,Anio,Uso,Tarjeta
+8990,Credito,2,2017,Sin Descripcion,Sin Descripcion
+41281,Credito,3,2017,Sin Descripcion,Sin Descripcion
+40761,Credito,4,2017,Sin Descripcion,Sin Descripcion
+41868,Credito,5,2017,Sin Descripcion,Sin Descripcion
+45583,Credito,6,2017,Sin Descripcion,Sin Descripcion
+44388,Credito,7,2017,Sin Descripcion,Sin Descripcion
+86200,Credito,8,2017,Sin Descripcion,Sin Descripcion
+8627,Debito,2,2017,Sin Descripcion,Sin Descripcion
+46272,Debito,3,2017,Sin Descripcion,Sin Descripcion
+28094,Debito,4,2017,Sin Descripcion,Sin Descripcion
+34081,Debito,5,2017,Sin Descripcion,Sin Descripcion
+33698,Debito,6,2017,Sin Descripcion,Sin Descripcion
+36850,Debito,7,2017,Sin Descripcion,Sin Descripcion
+56272,Debito,8,2017,Sin Descripcion,Sin Descripcion
+30295,Credito,1,2016,Sin Descripcion,Sin Descripcion
+40457,Credito,1,2017,Sin Descripcion,Sin Descripcion
+28324,Credito,2,2016,Sin Descripcion,Sin Descripcion
+36187,Credito,2,2017,Sin Descripcion,Sin Descripcion
+29708,Credito,3,2016,Sin Descripcion,Sin Descripcion
+29878,Credito,4,2016,Sin Descripcion,Sin Descripcion
+30641,Credito,5,2016,Sin Descripcion,Sin Descripcion
+26438,Credito,6,2016,Sin Descripcion,Sin Descripcion
+27934,Credito,7,2016,Sin Descripcion,Sin Descripcion
+30144,Credito,8,2016,Sin Descripcion,Sin Descripcion
+26986,Credito,9,2016,Sin Descripcion,Sin Descripcion
+31744,Credito,10,2016,Sin Descripcion,Sin Descripcion
+38170,Credito,11,2016,Sin Descripcion,Sin Descripcion
+43936,Credito,12,2016,Sin Descripcion,Sin Descripcion
+27955,Debito,1,2016,Sin Descripcion,Sin Descripcion
+42150,Debito,1,2017,Sin Descripcion,Sin Descripcion
+28973,Debito,2,2016,Sin Descripcion,Sin Descripcion
+29342,Debito,2,2017,Sin Descripcion,Sin Descripcion
+36793,Debito,3,2016,Sin Descripcion,Sin Descripcion
+41474,Debito,4,2016,Sin Descripcion,Sin Descripcion
+37189,Debito,5,2016,Sin Descripcion,Sin Descripcion
+34136,Debito,6,2016,Sin Descripcion,Sin Descripcion
+37277,Debito,7,2016,Sin Descripcion,Sin Descripcion
+41157,Debito,8,2016,Sin Descripcion,Sin Descripcion
+33478,Debito,9,2016,Sin Descripcion,Sin Descripcion
+30324,Debito,10,2016,Sin Descripcion,Sin Descripcion
+30869,Debito,11,2016,Sin Descripcion,Sin Descripcion
+34521,Debito,12,2016,Sin Descripcion,Sin Descripcion
+1,Credito,4,2017,Sin Descripcion,Sin Descripcion
+3,Credito,5,2017,Sin Descripcion,Sin Descripcion
+1,Credito,6,2017,Sin Descripcion,Sin Descripcion
+5,Debito,4,2017,Sin Descripcion,Sin Descripcion
+7,Debito,5,2017,Sin Descripcion,Sin Descripcion
+10,Debito,6,2017,Sin Descripcion,Sin Descripcion
+1,Debito,7,2017,Sin Descripcion,Sin Descripcion
+1,Credito,8,2017,N/I,N/I
+1,Debito,8,2017,N/I,N/I
+54448,Credito,1,2016,MoTo,TNP
+54421,Credito,1,2017,MoTo,TNP
+48595,Credito,2,2016,MoTo,TNP
+43203,Credito,2,2017,MoTo,TNP
+51272,Credito,3,2016,MoTo,TNP
+47612,Credito,3,2017,MoTo,TNP
+55244,Credito,4,2016,MoTo,TNP
+47193,Credito,4,2017,MoTo,TNP
+54422,Credito,5,2016,MoTo,TNP
+57963,Credito,5,2017,MoTo,TNP
+43066,Credito,6,2016,MoTo,TNP
+57217,Credito,6,2017,MoTo,TNP
+37796,Credito,7,2016,MoTo,TNP
+63615,Credito,7,2017,MoTo,TNP
+44778,Credito,8,2016,MoTo,TNP
+34174,Credito,8,2017,MoTo,TNP
+36961,Credito,9,2016,MoTo,TNP
+39157,Credito,10,2016,MoTo,TNP
+48735,Credito,11,2016,MoTo,TNP
+61725,Credito,12,2016,MoTo,TNP
+5972,Debito,1,2016,MoTo,TNP
+15204,Debito,1,2017,MoTo,TNP
+9189,Debito,2,2016,MoTo,TNP
+9441,Debito,2,2017,MoTo,TNP
+12147,Debito,3,2016,MoTo,TNP
+7981,Debito,3,2017,MoTo,TNP
+27114,Debito,4,2016,MoTo,TNP
+8504,Debito,4,2017,MoTo,TNP
+15200,Debito,5,2016,MoTo,TNP
+8561,Debito,5,2017,MoTo,TNP
+10605,Debito,6,2016,MoTo,TNP
+10666,Debito,6,2017,MoTo,TNP
+9584,Debito,7,2016,MoTo,TNP
+13462,Debito,7,2017,MoTo,TNP
+12685,Debito,8,2016,MoTo,TNP
+10461,Debito,8,2017,MoTo,TNP
+12183,Debito,9,2016,MoTo,TNP
+11107,Debito,10,2016,MoTo,TNP
+14242,Debito,11,2016,MoTo,TNP
+10335,Debito,12,2016,MoTo,TNP
+6,Credito,1,2017,Banda,TP
+15,Credito,2,2017,Banda,TP
+1,Credito,3,2016,Banda,TP
+6,Credito,3,2017,Banda,TP
+1,Credito,4,2016,Banda,TP
+4,Credito,5,2016,Banda,TP
+2,Credito,5,2017,Banda,TP
+2,Credito,6,2016,Banda,TP
+4,Credito,7,2017,Banda,TP
+3,Credito,8,2016,Banda,TP
+8,Credito,8,2017,Banda,TP
+4,Credito,9,2016,Banda,TP
+9,Credito,10,2016,Banda,TP
+18,Credito,11,2016,Banda,TP
+7,Credito,12,2016,Banda,TP
+2,Debito,1,2016,Banda,TP
+12,Debito,1,2017,Banda,TP
+7,Debito,2,2017,Banda,TP
+2,Debito,3,2016,Banda,TP
+2,Debito,3,2017,Banda,TP
+97,Debito,4,2016,Banda,TP
+4,Debito,4,2017,Banda,TP
+53,Debito,5,2016,Banda,TP
+47,Debito,6,2016,Banda,TP
+5,Debito,6,2017,Banda,TP
+25,Debito,7,2016,Banda,TP
+35,Debito,7,2017,Banda,TP
+45,Debito,8,2016,Banda,TP
+519,Debito,9,2016,Banda,TP
+86,Debito,10,2016,Banda,TP
+7,Debito,11,2016,Banda,TP
+21,Debito,12,2016,Banda,TP
+28018,Credito,1,2016,Chip,TP
+18767,Credito,1,2017,Chip,TP
+25576,Credito,2,2016,Chip,TP
+16646,Credito,2,2017,Chip,TP
+25557,Credito,3,2016,Chip,TP
+17051,Credito,3,2017,Chip,TP
+25346,Credito,4,2016,Chip,TP
+16623,Credito,4,2017,Chip,TP
+23883,Credito,5,2016,Chip,TP
+16404,Credito,5,2017,Chip,TP
+21780,Credito,6,2016,Chip,TP
+15833,Credito,6,2017,Chip,TP
+18662,Credito,7,2016,Chip,TP
+16494,Credito,7,2017,Chip,TP
+20042,Credito,8,2016,Chip,TP
+10784,Credito,8,2017,Chip,TP
+15388,Credito,9,2016,Chip,TP
+15986,Credito,10,2016,Chip,TP
+19066,Credito,11,2016,Chip,TP
+18747,Credito,12,2016,Chip,TP
+10928,Debito,1,2016,Chip,TP
+15731,Debito,1,2017,Chip,TP
+11629,Debito,2,2016,Chip,TP
+8998,Debito,2,2017,Chip,TP
+13348,Debito,3,2016,Chip,TP
+8404,Debito,3,2017,Chip,TP
+14379,Debito,4,2016,Chip,TP
+8758,Debito,4,2017,Chip,TP
+14775,Debito,5,2016,Chip,TP
+9662,Debito,5,2017,Chip,TP
+15726,Debito,6,2016,Chip,TP
+10962,Debito,6,2017,Chip,TP
+17047,Debito,7,2016,Chip,TP
+11767,Debito,7,2017,Chip,TP
+17411,Debito,8,2016,Chip,TP
+8311,Debito,8,2017,Chip,TP
+13033,Debito,9,2016,Chip,TP
+13692,Debito,10,2016,Chip,TP
+15340,Debito,11,2016,Chip,TP
+15118,Debito,12,2016,Chip,TP
+1,Credito,1,2016,Wallet,TNP
+4,Credito,1,2017,Wallet,TNP
+3,Credito,2,2016,Wallet,TNP
+2,Credito,3,2016,Wallet,TNP
+2,Credito,4,2016,Wallet,TNP
+1,Credito,9,2016,Wallet,TNP
+4,Credito,10,2016,Wallet,TNP
+2,Credito,11,2016,Wallet,TNP
+1,Credito,12,2016,Wallet,TNP
+1,Debito,11,2016,Wallet,TNP
+1563,Credito,1,2017,MoTo,TNP
+1822,Credito,2,2017,MoTo,TNP
+5542,Credito,3,2017,MoTo,TNP
+11309,Credito,4,2017,MoTo,TNP
+13359,Credito,5,2017,MoTo,TNP
+10463,Credito,6,2017,MoTo,TNP
+7690,Credito,7,2017,MoTo,TNP
+61,Debito,1,2017,MoTo,TNP
+115,Debito,2,2017,MoTo,TNP
+1084,Debito,3,2017,MoTo,TNP
+11266,Debito,4,2017,MoTo,TNP
+12045,Debito,5,2017,MoTo,TNP
+14300,Debito,6,2017,MoTo,TNP
+7187,Debito,7,2017,MoTo,TNP
+1,Credito,7,2017,Sin Descripcion,Sin Descripcion
+1,Credito,1,2017,Chip,TP
+75,Credito,2,2017,Chip,TP
+304,Credito,3,2017,Chip,TP
+514,Credito,4,2017,Chip,TP
+1386,Credito,5,2017,Chip,TP
+1819,Credito,6,2017,Chip,TP
+1070,Credito,7,2017,Chip,TP
+697,Debito,3,2017,Chip,TP
+6986,Debito,4,2017,Chip,TP
+7281,Debito,5,2017,Chip,TP
+7654,Debito,6,2017,Chip,TP
+4244,Debito,7,2017,Chip,TP
+1,Credito,2,2017,Wallet,TNP
+10,Credito,3,2017,Wallet,TNP
+2,Credito,4,2017,Wallet,TNP
+23,Credito,5,2017,Wallet,TNP
+6,Credito,6,2017,Wallet,TNP
+4,Credito,7,2017,Wallet,TNP
+1,Credito,3,2016,Sin Descripcion,Sin Descripcion
+1,Credito,3,2017,Sin Descripcion,Sin Descripcion
+1,Credito,5,2017,Sin Descripcion,Sin Descripcion
+7,Credito,6,2016,Sin Descripcion,Sin Descripcion
+9,Credito,7,2016,Sin Descripcion,Sin Descripcion
+6,Debito,1,2016,Sin Descripcion,Sin Descripcion
+21,Debito,1,2017,Sin Descripcion,Sin Descripcion
+12,Debito,2,2016,Sin Descripcion,Sin Descripcion
+8,Debito,2,2017,Sin Descripcion,Sin Descripcion
+9,Debito,3,2016,Sin Descripcion,Sin Descripcion
+15,Debito,3,2017,Sin Descripcion,Sin Descripcion
+7,Debito,4,2016,Sin Descripcion,Sin Descripcion
+6,Debito,4,2017,Sin Descripcion,Sin Descripcion
+14,Debito,5,2016,Sin Descripcion,Sin Descripcion
+5,Debito,5,2017,Sin Descripcion,Sin Descripcion
+10,Debito,6,2016,Sin Descripcion,Sin Descripcion
+10,Debito,6,2017,Sin Descripcion,Sin Descripcion
+14,Debito,7,2016,Sin Descripcion,Sin Descripcion
+14,Debito,7,2017,Sin Descripcion,Sin Descripcion
+17,Debito,8,2016,Sin Descripcion,Sin Descripcion
+9,Debito,8,2017,Sin Descripcion,Sin Descripcion
+13,Debito,9,2016,Sin Descripcion,Sin Descripcion
+11,Debito,10,2016,Sin Descripcion,Sin Descripcion
+17,Debito,11,2016,Sin Descripcion,Sin Descripcion
+15,Debito,12,2016,Sin Descripcion,Sin Descripcion
+23,Credito,1,2017,Internet,TNP
+11,Credito,2,2017,Internet,TNP
+6,Credito,3,2017,Internet,TNP
+155,Credito,4,2017,Internet,TNP
+274,Credito,5,2017,Internet,TNP
+6,Credito,6,2017,Internet,TNP
+2,Credito,7,2017,Internet,TNP
+3,Debito,4,2017,Internet,TNP
+22,Debito,5,2017,Internet,TNP
+17,Debito,6,2017,Internet,TNP
+2853,Credito,1,2016,Banda,TP
+1681,Credito,1,2017,Banda,TP
+2353,Credito,2,2016,Banda,TP
+1023,Credito,2,2017,Banda,TP
+2101,Credito,3,2016,Banda,TP
+1292,Credito,3,2017,Banda,TP
+3127,Credito,4,2016,Banda,TP
+1302,Credito,4,2017,Banda,TP
+2186,Credito,5,2016,Banda,TP
+1212,Credito,5,2017,Banda,TP
+2066,Credito,6,2016,Banda,TP
+1324,Credito,6,2017,Banda,TP
+1835,Credito,7,2016,Banda,TP
+1211,Credito,7,2017,Banda,TP
+2327,Credito,8,2016,Banda,TP
+750,Credito,8,2017,Banda,TP
+1758,Credito,9,2016,Banda,TP
+1496,Credito,10,2016,Banda,TP
+1383,Credito,11,2016,Banda,TP
+1335,Credito,12,2016,Banda,TP
+341,Debito,1,2016,Banda,TP
+261,Debito,1,2017,Banda,TP
+557,Debito,2,2016,Banda,TP
+155,Debito,2,2017,Banda,TP
+352,Debito,3,2016,Banda,TP
+216,Debito,3,2017,Banda,TP
+671,Debito,4,2016,Banda,TP
+425,Debito,4,2017,Banda,TP
+369,Debito,5,2016,Banda,TP
+436,Debito,5,2017,Banda,TP
+239,Debito,6,2016,Banda,TP
+366,Debito,6,2017,Banda,TP
+334,Debito,7,2016,Banda,TP
+295,Debito,7,2017,Banda,TP
+247,Debito,8,2016,Banda,TP
+170,Debito,8,2017,Banda,TP
+3192,Debito,9,2016,Banda,TP
+1894,Debito,10,2016,Banda,TP
+258,Debito,11,2016,Banda,TP
+260,Debito,12,2016,Banda,TP
+19,Credito,1,2016,Contactless,TP
+2,Credito,1,2017,Contactless,TP
+1,Credito,5,2016,Contactless,TP
+6,Credito,6,2016,Contactless,TP
+24,Credito,7,2016,Contactless,TP
+277,Credito,8,2016,Contactless,TP
+647,Credito,9,2016,Contactless,TP
+245,Credito,10,2016,Contactless,TP
+19,Credito,11,2016,Contactless,TP
+3,Credito,12,2016,Contactless,TP

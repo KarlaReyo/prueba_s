@@ -1,0 +1,21 @@
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+  padding-left:100px;
+}
+
+.prueba {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+.imagen{
+  background-image: url("logo.png");
+}
+
+.cuadro {
+  padding-left:100px;
+  text-align:  center;
+}

@@ -1,0 +1,41 @@
+Mes,Tipo,Anio,Segmento,Ctes,Folios,paymentstx,payment,CgoCnt,CgoImp,Saldo_prom_mens,Alertas,Alertast,Tarjeta,Tarjetat,ratioc,ratiod
+jan,Debito,2016,Sin Segmento,39,16,84,1400,70,3044,1133,59,Alerta,6,TP,0.19047619,0.228571429
+feb,Debito,2016,BanamexPriority 2 (High Inco,10,32,77,3605,81,4516,581,69,Notificacion,20,TNP,0.415584416,0.395061728
+mar,Debito,2016,CitiGold 2,33,44,72,3722,15,1242,540,47,Alerta,9,TP,0.611111111,2.933333333
+apr,Debito,2016,Ingresos Bajos - Adultos,47,48,41,4415,49,2994,1918,51,Notificacion,6,TNP,1.170731707,0.979591837
+may,Debito,2016,Ingresos Bajos - Jovenes,30,4,72,2749,15,3230,3308,68,Alerta,10,TP,0.055555556,0.266666667
+jun,Debito,2016,Ingresos Marginales,36,22,72,394,24,3497,3537,34,Notificacion,20,TNP,0.305555556,0.916666667
+jul,Debito,2016,Ingresos Marginales Nomina,42,32,66,3113,31,2340,4268,47,Alerta,17,TP,0.484848485,1.032258065
+aug,Debito,2016,Ingresos Medios - Adultos,40,6,55,4303,95,3033,3087,88,Notificacion,12,TNP,0.109090909,0.063157895
+sep,Debito,2016,Jovenes Profesionistas,19,50,21,2398,93,1793,4592,75,Alerta,16,TP,2.380952381,0.537634409
+oct,Debito,2016,Sin Segmento,38,10,64,4231,63,1513,3687,26,Notificacion,8,TNP,0.15625,0.158730159
+nov,Debito,2016,BanamexPriority 2 (High Inco,50,35,59,931,39,1599,4149,79,Alerta,7,TP,0.593220339,0.897435897
+dec,Debito,2016,Ingresos Bajos - Adultos,49,1,23,992,49,1641,4960,63,Notificacion,16,TNP,0.043478261,0.020408163
+jan,Debito,2017,Ingresos Bajos - Jovenes,8,4,11,115,32,4907,4350,57,Alerta,13,TP,0.363636364,0.125
+feb,Debito,2017,Ingresos Marginales,23,29,40,3569,100,1046,3839,65,Notificacion,19,TNP,0.725,0.29
+mar,Debito,2017,Ingresos Marginales Nomina,44,43,41,1364,58,4719,3378,42,Alerta,19,TP,1.048780488,0.74137931
+apr,Debito,2017,BanamexPriority 2 (High Inco,15,34,18,654,98,876,3176,55,Notificacion,20,TNP,1.888888889,0.346938776
+may,Debito,2017,CitiGold 2,36,35,59,1087,30,3077,508,70,Alerta,18,TP,0.593220339,1.166666667
+jun,Debito,2017,Ingresos Bajos - Adultos,15,44,47,233,82,1136,2487,40,Notificacion,19,TNP,0.936170213,0.536585366
+jul,Debito,2017,Ingresos Bajos - Jovenes,21,41,92,1117,28,4780,1515,15,Alerta,20,TP,0.445652174,1.464285714
+aug,Debito,2017,Ingresos Marginales,26,20,28,4379,23,1164,3163,99,Notificacion,16,TNP,0.714285714,0.869565217
+jan,Credito,2016,Ingresos Marginales Nomina,27,38,43,1078,27,3476,3808,4,Alerta,6,TP,0.88372093,1.407407407
+feb,Credito,2016,Ingresos Medios - Adultos,50,11,67,863,26,2980,198,22,Notificacion,10,TNP,0.164179104,0.423076923
+mar,Credito,2016,Jovenes Profesionistas,41,13,16,1098,16,4946,881,76,Alerta,15,TP,0.8125,0.8125
+apr,Credito,2016,Sin Segmento,23,17,45,1150,75,4193,3249,39,Notificacion,5,TNP,0.377777778,0.226666667
+may,Credito,2016,BanamexPriority 2 (High Inco,17,39,96,515,16,1638,546,95,Alerta,10,TP,0.40625,2.4375
+jun,Credito,2016,Ingresos Bajos - Adultos,33,9,99,3222,74,3187,542,58,Notificacion,19,TNP,0.090909091,0.121621622
+jul,Credito,2016,Ingresos Bajos - Jovenes,7,3,57,2127,88,3562,1658,56,Alerta,15,TP,0.052631579,0.034090909
+aug,Credito,2016,Ingresos Marginales,7,31,32,4625,59,2611,4521,32,Notificacion,16,TNP,0.96875,0.525423729
+sep,Credito,2016,Ingresos Marginales Nomina,42,16,17,4027,50,4784,1815,34,Alerta,12,TP,0.941176471,0.32
+oct,Credito,2016,BanamexPriority 2 (High Inco,17,9,50,4007,68,2224,97,59,Notificacion,19,TNP,0.18,0.132352941
+nov,Credito,2016,CitiGold 2,18,39,83,1685,74,1989,2201,60,Alerta,16,TP,0.469879518,0.527027027
+dec,Credito,2016,Ingresos Bajos - Adultos,17,28,27,3120,10,1147,1745,27,Notificacion,20,TNP,1.037037037,2.8
+jan,Credito,2017,Ingresos Bajos - Jovenes,44,21,40,1519,54,101,3285,35,Alerta,17,TP,0.525,0.388888889
+feb,Credito,2017,Ingresos Marginales,7,20,63,2034,50,3788,3863,98,Notificacion,13,TNP,0.317460317,0.4
+mar,Credito,2017,Ingresos Marginales Nomina,46,9,44,2460,85,1475,3492,82,Alerta,16,TP,0.204545455,0.105882353
+apr,Credito,2017,Ingresos Medios - Adultos,17,28,52,2724,63,1013,3910,82,Notificacion,9,TNP,0.538461538,0.444444444
+may,Credito,2017,Jovenes Profesionistas,19,43,76,1137,81,4804,124,49,Alerta,10,TP,0.565789474,0.530864198
+jun,Credito,2017,Sin Segmento,21,38,26,1350,70,1285,2319,10,Notificacion,8,TNP,1.461538462,0.542857143
+jul,Credito,2017,BanamexPriority 2 (High Inco,26,5,17,636,18,2585,2010,87,Alerta,17,TP,0.294117647,0.277777778
+aug,Credito,2017,Ingresos Bajos - Adultos,2,40,72,3632,77,2615,3335,78,Notificacion,20,TNP,0.555555556,0.519480519
