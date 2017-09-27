@@ -1,0 +1,26 @@
+h1 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+body {
+  
+}
+
+.prueba {
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+div.titulo {
+  color: green;
+}
+
+div.imagen {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top:68px;
+}
