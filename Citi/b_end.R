@@ -1,0 +1,39 @@
+library(plyr)
+library(tidyverse)
+library(magrittr)
+
+n_cte <- 10000
+n_prd <- 10
+
+sn_vals <- c('Citigold','Priority','Citiblue','Citi@Work')
+cv_vals <- c('Retirad@', 'Solter@', 'Familia')
+rk_vals <- c('AAA','AA','A','BBB','BB','B')
+pd_vals <- c('TC','CP','CN','CLI','DB','EFE','AAC')
+
+risk_level <- function(sn, cv) {6*rbeta(1, which(sn==sn_vals), which(cv==cv_vals))} %>% ceiling %>% rk_vals[.]
+
+ctes <- tibble(idcte = 1:n_cte, seg_negocio = sample(sn_vals, n_cte, T, prob=c(0.05, 0.1, 0.35, 0.5)), ciclo_vida=sample(cv_vals, n_cte, T, prob=c(0.1, 0.4, 0.5))) %>% rowwise %>% mutate(seg_riesgo = risk_level(seg_negocio, ciclo_vida)) %>% ungroup
+
+# Mandar/Recibir de front end:
+
+## tabla S x P de ELEGIBILIDADES
+
+eleg <- adply(pd_vals, 1, function(x) {tibble(seg_riesgo=rk_vals, prod=x) %>% rowwise %>% mutate(eleg=runif(1)<0.4)}, .id=NULL) %>% spread(prod, eleg) %>% left_join(ctes %>% group_by(seg_riesgo) %>% tally %>% ungroup, .)
+
+## tabla S x P de TASAS
+
+tasa <- eleg %>% select(-n) %>% gather(prod, eleg, -seg_riesgo) %>% rowwise %>% mutate(tasa=if_else(eleg, 0.6*runif(1), NULL)) %>% select(-eleg) %>% spread(prod, tasa)
+
+# Salida de back end:
+
+## tabla S x P de RESPUESTA ESPERADA
+
+resp <- eleg %>% select(-n) %>% gather(prod, eleg, -seg_riesgo) %>% rowwise %>% mutate(resp=if_else(eleg, 0.3*runif(1), NULL)) %>% select(-eleg) %>% spread(prod, resp)
+
+## tabla S x P de NPV(Y2)
+
+npv_y2 <- eleg %>% select(-n) %>% gather(prod, eleg, -seg_riesgo) %>% rowwise %>% mutate(npv_y2 = if_else(eleg, 1000*rgamma(1, 2, 1) - 1000, NULL)) %>% select(-eleg) %>% spread(prod, npv_y2)
+
+## tabla S x P x T de GENERIC KPI
+
+kpi_gen <- eleg %>% select(-n) %>% gather(prod, eleg, -seg_riesgo) %>% rowwise %>% do(., data.frame(., t=1:24, stringsAsFactors=F) %>% mutate(kpi = if_else(eleg, 50*rgamma(24, 2, 1), NULL))) %>% ungroup

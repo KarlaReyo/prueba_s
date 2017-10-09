@@ -12,7 +12,7 @@ library(RColorBrewer)
 #Notacion cientifica
 options(scipen=999)
 
-setwd("~/R/App-4")
+#setwd("~/R/App-4")
 ctes <- read.csv("Ctes.csv", header = T)
 ctes[is.na(ctes)] <- 0
 

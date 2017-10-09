@@ -50,7 +50,11 @@ ui <- fluidPage(
                     "Importe Total" = "I_Universo",
                     "Importe Sin ATM/Diversas" = "I_Sin", 
                     "Importe Modelo" = "I_SFav",
-                    "Importe Otros Beneficios" = "I_OFav"))
+                    "Importe Otros Beneficios" = "I_OFav",
+                    "Quebranto Total" = "Q_Universo",
+                    "Quebranto Sin ATM/Diversas" = "Q_Sin", 
+                    "Quebranto Modelo" = "Q_SFav",
+                    "Quebranto Otros Beneficios" = "Q_OFav"))
       
       
     ),
@@ -61,7 +65,9 @@ ui <- fluidPage(
       tabsetPanel(type = "tabs",
                   tabPanel("Gráficas", plotOutput("distPlot")),
                   tabPanel("Tabla", tableOutput("table"))
-      )
+      ),
+      br(),
+      plotOutput("Ratio")
       
     )
   )
@@ -78,7 +84,7 @@ server <- function(input, output) {
     ggplot(new, aes(x= Mes,y=new[,2])) + 
       geom_bar(stat="identity", position="dodge", fill="#004cc0") +
       facet_wrap(~ Anio) + 
-      scale_y_continuous("Folios", labels = comma) +   scale_x_discrete(name="Mes") + 
+      scale_y_continuous("Registros",labels = comma) +   scale_x_discrete(name="Mes") + 
       aes(x = fct_inorder(Mes))
 
     })
@@ -90,6 +96,18 @@ server <- function(input, output) {
     nr <- which( colnames(filtro)== as.character(input$pob ))
     
     filtro[,c(1,nr,nr+1,nr+2)]
+    
+  })
+  output$Ratio <- renderPlot({
+    
+    acl$ratio <- acl$Q_SFav/acl$I_SFav
+    
+    ggplot(acl, aes(x= Mes,y=ratio)) + 
+      geom_bar(stat="identity", position="dodge", fill="#004cc0") +
+      facet_wrap(~ Anio) + 
+      scale_y_continuous("Quebranto/Importe", labels = scales::percent) +   scale_x_discrete(name="Mes") + 
+      aes(x = fct_inorder(Mes))+
+      ggtitle("Ratio quebrantos")
     
   })
 }
